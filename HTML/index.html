@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8"> <!--Importing the normal character set-->
+    <title>About Us - Pirate Plus</title> <!--Page Title-->
+    <link rel="stylesheet" href="../CSS/index.css"> <!--Importing the styling-->
+</head>
+<body>
+    <div class = "topBar">
+        <h1 id="Name">Pirate Plus</h1>
+        <button class = "Bttn" id="HomeBttn">The Project</button> <!--Home Button-->
+        <script type="text/javascript"> //Script to change page to home when button is pressed, gotten from https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page
+            document.getElementById("HomeBttn").onclick = function () { 
+                location.href = "index.html"
+            }
+        </script>
+
+        <button class="Bttn" id="FeedbackBttn">Feedback</button>
+        <script type="text/javascript"> //Script to change to feedback page when button is pressed
+            document.getElementById("FeedbackBttn").onclick = function () { 
+                location.href = "interviews.html"
+            }
+        </script>
+
+        <button class="Bttn" id="TeamBttn">The Team</button>
+        <script type="text/javascript"> //Script to change to profiles page when button is pressed
+            document.getElementById("TeamBttn").onclick = function () { 
+                location.href = "Profiles.html"
+            }
+        </script>
+    </div>
+
+    <div class= "PageText">
+        <h1>About the Project</h1>
+        <h2>Idea</h2>
+        <h2>Stakeholders</h2>
+        <h2>Device Requirements</h2>
+        <h2>System Requirements</h2>
+    </div>
+</body>
+</html> 
