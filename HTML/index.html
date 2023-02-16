@@ -6,7 +6,6 @@
 </head>
 <body>
     <div class = "topBar">
-        <h1 id="Name">Pirate Plus</h1>
         <button class = "Bttn" id="HomeBttn">The Project</button> <!--Home Button-->
         <script type="text/javascript"> //Script to change page to home when button is pressed, gotten from https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page
             document.getElementById("HomeBttn").onclick = function () { 
@@ -27,50 +26,56 @@
                 location.href = "Profiles.html"
             }
         </script>
+        <h1 id="Name">Pirate Plus</h1>
     </div>
 
     <div class= "ProjectDetails">
-        <h1>About the Project</h1>
+        <h1 class="pageTitle">About the Project</h1>
 
-        <div class="detail">
-            <h2>Idea</h2>
-            <p>We seek to create an app for college students that serves as a comprehensive resource for non-academic needs. We will develop a Whitworth-specific version of the app, 
-                called Pirate Plus. Pirate Plus will serve as a facilitator of cooperation and community between students. In addition, this app will be able to scale to include other 
-                university-specific versions, think "Bulldog Plus" or "Cougar Plus". </p>
+        <div class="section" id="Idea">
+            <div id="interiorInfo">
+                <h2>Idea</h2>
+                <p>We seek to create an app for college students that serves as a comprehensive resource for non-academic needs. We will develop a Whitworth-specific version of the app, 
+                    called Pirate Plus. Pirate Plus will serve as a facilitator of cooperation and community between students. In addition, this app will be able to scale to include other 
+                    university-specific versions, think "Bulldog Plus" or "Cougar Plus". </p>
+                
+                <p>The app will have four main focuses: decentralized ridesharing, mental health check-ins, food resources, and an event board.</p>
+            
+                <ul>
+                    <li>The ridesharing portion of the app will allow students to post their trips, allowing for students who need a ride to join. For example, if a student is returning 
+                        home to Seattle for break and has extra space, they will be able to post about it. Then a student who doesn't have a car would be able to join in exchange for
+                        something like gas money.</li>
+                    <br>
+                    <li>The mental health portion of the app will ask student to take voluntary daily quizzes which evaluate their mental health. The trends of the responses will be used
+                        to help students with their mental health. For example, if a student reports that they are feeling depressed for a few days, the app may recommend that they talk
+                        to a campus counselor and provide ways to contact the counseling office.</li>
+                    <br>
+                    <li>The events portion of the app will be a centralized place for event posting. Campus organizations will be to post events including details such as time and description.
+                        Potential events may include club meetings, primetimes, or athletic events. In addition, we plan to include general Spokane-area events and incorporate it with the
+                        ridesharing portion of the app. For example, if there is an art show downtown, someone may be able to post that they are offering rides to the event.</li>
+                    <br>
+                    <li>Finally, the food resource section of the app will include useful information about student meal plans and food locations. Specifically, a student would be able to see
+                        the amount of flex-dollars and meal swipes they have left and see the daily hours of all of Whitworth's food locations. </li>
+                </ul>
+            
 
-            <p>The app will have four main focuses: decentralized ridesharing, mental health check-ins, food resources, and an event board.
-            <ul>
-                <li>The ridesharing portion of the app will allow students to post their trips, allowing for students who need a ride to join. For example, if a student is returning 
-                    home to Seattle for break and has extra space, they will be able to post about it. Then a student who doesn't have a car would be able to join in exchange for
-                    something like gas money.</li>
-                <li>The mental health portion of the app will ask student to take voluntary daily quizzes which evaluate their mental health. The trends of the responses will be used
-                    to help students with their mental health. For example, if a student reports that they are feeling depressed for a few days, the app may recommend that they talk
-                    to a campus counselor and provide ways to contact the counseling office.</li>
-                <li>The events portion of the app will be a centralized place for event posting. Campus organizations will be to post events including details such as time and description.
-                    Potential events may include club meetings, primetimes, or athletic events. In addition, we plan to include general Spokane-area events and incorporate it with the
-                    ridesharing portion of the app. For example, if there is an art show downtown, someone may be able to post that they are offering rides to the event.</li>
-                <li>Finally, the food resource section of the app will include useful information about student meal plans and food locations. Specifically, a student would be able to see
-                    the amount of flex-dollars and meal swipes they have left and see the daily hours of all of Whitworth's food locations. </li>
-            </ul>
-            </p>
+                <p>One potential addition is daily post, similar to BeReal, where students can take a picture and/or share their plans, mood, thoughts, etc. However, this would likely be a later
+                    addition as it would require us to add some sort of moderation and camera functionality.</p>
 
-            <img src="../Assets/PiratePlusMockup.jpg" alt="App mockup" height="60%">
-
-            <p>One potential addition is daily post, similar to BeReal, where students can take a picture and/or share their plans, mood, thoughts, etc. However, this would likely be a later
-                addition as it would require us to add some sort of moderation and camera functionality.</p>
-
-            <p>Currently, only the event portion of our app has an existing Whitworth equivalent: HFS, which is underutilized. Sodexo's everyday app has info on hours for Whitworth food options,
-                but doesn't show the amount of flex dollars or swipes student have. Finally, neither the mental health or rideshare portions of out app have standalone app equivalents. Only 
-                Whitworth students will have access to to the app. This will make the app relatively trustworthy, especially for the rideshare and event sections.</p>
+                <p>Currently, only the event portion of our app has an existing Whitworth equivalent: HFS, which is underutilized. Sodexo's everyday app has info on hours for Whitworth food options,
+                    but doesn't show the amount of flex dollars or swipes student have. Finally, neither the mental health or rideshare portions of out app have standalone app equivalents. Only 
+                    Whitworth students will have access to to the app. This will make the app relatively trustworthy, especially for the rideshare and event sections.</p>
+            </div>
+            <img src="../Assets/PiratePlusMockup.jpg" alt="App mockup" id="mockup">
         </div>
         
-        <div class="detail">
+        <div class="section">
             <h2>Device Requirements</h2>
             <p>We are focused on building an app, so a smartphone will be needed. We are unsure yet if we will develop the app for Android or Apple devices, so it is unknown if there is a
                 manufacturer-specific device requirement. There is a chance we will also have some sort of picture-taking element to the app, so a camera may also be required.</p>
         </div>
 
-        <div class="detail">
+        <div class="section">
             <h2>System Requirements</h2>
             <p>Pirate Plus will need a database to store information about rides, events, mental health, etc., so an internet connection will be required. In addition, we will likely also need
                 to pull some information from Whitworth servers, such as student info (e.g. name, class, etc.) and meal plan info.</p>

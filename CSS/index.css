@@ -1,46 +1,110 @@
 html {
     color: whitesmoke;
-    background-color: lightcoral;
+    background-color: maroon;
     margin: 0;
     height: 100%;
-    display: flex;
-    justify-content: flex-start;
+    display: block;
 }
 
 h1 {
     -webkit-text-stroke: .5px #000;
 }
 
+h2 {
+    font-size: 28pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 th {
     display: flex;
-    justify-content: left;
+    text-align: left;
+    vertical-align: text-bottom;
+    padding-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
-/*
+#name {
+    font-size: 48pt;
+    width: 70%;
+    margin: 0px;
+    
+    text-align: center;
+    align-self:normal;
+    vertical-align:text-bottom;
+}
+
+.topBar {
+    display:inline-flex;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 2px solid whitesmoke;
+}
 
 .Bttn {
-    display: flex;
-    justify-content: right;
-    height: auto;
+    width: 5%;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-content: start;
+    justify-items: center;
 }
 
-.topBar
-{
-    display: flex;
-    justify-content:space-evenly;
-    background-color: lightgrey;
-    border-color: black;
-}
-
-.detail
-{
-    display: flex;
-    width: 90%;
-    border: 10%;
-    justify-content: space-evenly;
+.section {
     background-color: lightcoral;
-    border-radius: 3em;
-    border-color: crimson;
-    border: 3px;
+    border-color: white;
+    border-radius: 1rem;
+    border-style: solid;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
-*/
+
+.pageTitle {
+    font-size: 32pt;
+}
+
+#Idea {
+    display: flex;
+    align-content: space-evenly;
+}
+
+#interiorInfo {
+    width: 75%;
+}
+
+#mockup {
+    height: 40rem;
+    margin: auto;
+}
+
+ul {
+    width: 50%;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+#profile {
+    width: 38%;
+    display: flex;
+    align-items:normal;
+    text-align: left;
+}
+
+.info {
+    width: 50%;
+}
+
+.picture {
+    width: 50%;
+}
+
+img {
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin-left: auto;
+}
