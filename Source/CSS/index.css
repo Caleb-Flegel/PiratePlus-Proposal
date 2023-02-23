@@ -1,82 +1,11 @@
-html {
-    color: whitesmoke;
-    background-color: maroon;
-    margin: auto;
-    height: 100%;
-    display: block;
-    width: 98%;
-}
-
-button:hover {
-    cursor: pointer;
-    border: 2px solid white;
-}
-
-h1 {
-    -webkit-text-stroke: .5px #000;
-}
-
-h2 {
-    font-size: 28pt;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-th {
-    display: flex;
-    text-align: left;
-    vertical-align: text-bottom;
-    padding-right: .5rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
-#name {
-    font-size: 48pt;
-    width: 70%;
-    margin: 0px;
-    
-    text-align: center;
-    align-self:normal;
-    vertical-align:text-bottom;
-}
-
-.topBar {
-    display:inline-flex;
-    width: 100%;
-    vertical-align: middle;
-    border-bottom: 2px solid whitesmoke;
-}
-
-.Bttn {
-    width: 5%;
-    height: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    align-content: start;
-    justify-items: center;
-}
-
-.section {
-    background-color: lightcoral;
-    border-color: white;
-    border-radius: 1rem;
-    border-style: solid;
-    padding: .8rem;
-    margin-bottom: 1rem;
-}
-
-.pageTitle {
-    font-size: 32pt;
-}
-
 #Idea {
     display: flex;
     align-content: space-evenly;
 }
 
 #interiorInfo {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slideshow {
@@ -89,54 +18,24 @@ th {
 
 .ssBttn {
     background: lightgrey;
-    border: black;
+    border: 1px solid black;
     -webkit-text-stroke: 4px maroon;
     height: 3rem;
     margin: auto;
 }
 
 .ssBttn:hover {
-    margin-left: -2px;
-    margin-right: -2px;
+    margin-left: -1px;
+    margin-right: -1px;
 }
 
 #mockup {
     width: 20rem;
+    max-height: 40rem;
     margin: auto;
 }
 
 .slideshowPic {
     margin-top: auto;
     margin-bottom: auto;
-}
-
-ul {
-    width: 50%;
-}
-
-.profiles {
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
-}
-
-#profile {
-    width: 38%;
-    display: flex;
-    align-items:normal;
-    text-align: left;
-}
-
-.info {
-    width: 50%;
-}
-
-.picture {
-    width: 50%;
-}
-
-img {
-    border-radius: 1rem;
-    border: 2px solid black;
-    margin-left: auto;
 }
