@@ -1,9 +1,15 @@
 html {
     color: whitesmoke;
     background-color: maroon;
-    margin: 0;
+    margin: auto;
     height: 100%;
     display: block;
+    width: 98%;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid white;
 }
 
 h1 {
@@ -56,7 +62,7 @@ th {
     border-color: white;
     border-radius: 1rem;
     border-style: solid;
-    padding: 1rem;
+    padding: .8rem;
     margin-bottom: 1rem;
 }
 
@@ -70,12 +76,38 @@ th {
 }
 
 #interiorInfo {
-    width: 75%;
+    margin: auto;
+}
+
+.slideshow {
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.ssBttn {
+    background: lightgrey;
+    border: black;
+    -webkit-text-stroke: 4px maroon;
+    height: 3rem;
+    margin: auto;
+}
+
+.ssBttn:hover {
+    margin-left: -2px;
+    margin-right: -2px;
 }
 
 #mockup {
-    height: 40rem;
+    width: 20rem;
     margin: auto;
+}
+
+.slideshowPic {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 ul {

@@ -3,6 +3,7 @@
     <meta charset="UTF-8"> <!--Importing the normal character set-->
     <title>About Us - Pirate Plus</title> <!--Page Title-->
     <link rel="stylesheet" href="../CSS/index.css"> <!--Importing the styling-->
+    <script src="../JavaScript/index.js"></script>
 </head>
 <body>
     <div class = "topBar">
@@ -66,7 +67,12 @@
                     but doesn't show the amount of flex dollars or swipes student have. Finally, neither the mental health or rideshare portions of out app have standalone app equivalents. Only 
                     Whitworth students will have access to to the app. This will make the app relatively trustworthy, especially for the rideshare and event sections.</p>
             </div>
-            <img src="../Assets/PiratePlusMockup.jpg" alt="App mockup" id="mockup">
+            <div class="slideshow">
+                <button class="ssBttn" id="PrevssBttn" onclick="changeSlide('prev')"><</button>
+                <span id="slideshowPic"><img src="../Assets/PiratePlusMockup.jpg" alt="App mockup" id="mockup"></span>
+                <button class="ssBttn" id="NextssBttn" onclick="changeSlide('next')">></button>
+            </div>
+            
         </div>
         
         <div class="section">
