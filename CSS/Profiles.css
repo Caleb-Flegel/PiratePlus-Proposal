@@ -1,15 +1,20 @@
-ul {
-    width: 50%;
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
 }
 
 .profiles {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     vertical-align: middle;
 }
 
 #profile {
-    width: 38%;
+    width: 40%;
     display: flex;
     align-items:normal;
     text-align: left;
@@ -21,4 +26,17 @@ ul {
 
 .picture {
     width: 50%;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#30WksRoles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }

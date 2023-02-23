@@ -2,9 +2,9 @@
 <head>
     <meta charset="UTF-8"> <!--Importing the normal character set-->
     <title>About Us - Pirate Plus</title> <!--Page Title-->
-    <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/index.css"> <!--Importing the styling-->
-    <script src="../JavaScript/index.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css"> <!--Importing the styling-->
+    <script src="JavaScript/index.js"></script>
 </head>
 <body>
     <div class = "topBar">
@@ -70,7 +70,7 @@
             </div>
             <div class="slideshow">
                 <button class="ssBttn" id="PrevssBttn" onclick="changeSlide('prev')"><</button>
-                <span id="slideshowPic"><img src="Assets/PiratePlusMockup.jpg" alt="App mockup" id="mockup"></span>
+                <span id="slideshowPic"><img src="Assets/Mockups/Pirate Plus Presentation-Home.jpg" alt="App mockup" id="mockup"></span>
                 <button class="ssBttn" id="NextssBttn" onclick="changeSlide('next')">></button>
             </div>
             
@@ -89,8 +89,13 @@
         </div>
 
         <div class="section">
-            <h2>TEST</h2>
-            <p>hbeffhweiufbjwebfklbwhesjef</p>
+            <h2>Useful Azure Services</h2>
+            <p>These service may all be set up within the Azure website. This is also where they are managed. Since we won't be using these services very heavily, they will likely be covered under the student plan.</p>
+            <ul>
+                <li><a href="https://azure.microsoft.com/en-us/products/azure-sql/database/">Azure SQL Database</a> will allow us to store data about events, rides offered by others, food options, and account info.</li>
+                <li><a href="https://azure.microsoft.com/en-us/products/notification-hubs/">Azure Notification Hub</a> will let us send relevant notifications ot users. There is planned to be daily notifications encouraging students to report on their mental health. There may also be others when rides or events users have indicated they are participating in are happening soon.</li>
+                <li><a href="https://azure.microsoft.com/en-us/products/azure-maps/#azuremaps-overview">Azure Maps</a> will be useful in the food section of the app. One planned aspect of the section is restaurant recommendations, this service will be able to map the recommendations so users can see how far away options are.</li>
+            </ul>
         </div>
     </div>
 </body>

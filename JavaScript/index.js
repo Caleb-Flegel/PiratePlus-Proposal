@@ -1,7 +1,11 @@
 //Global variables for the concept slideshow
-var slideshowArry= ["Assets/PiratePlusMockup.jpg",
-                    "Assets/Caleb_snow.jpg",
-                    "Assets/thumbnail_Megan's Picture.jpg"];
+var slideshowArry= ["Assets/Mockups/Pirate Plus Presentation-Home.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-Hamburger.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-RideShare.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-CheckIn.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-Food.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-Events.jpg",
+                    "Assets/Mockups/Pirate Plus Presentation-Account.jpg"];
 var slideshowCounter = 0;
 
 function changeSlide (dir) {

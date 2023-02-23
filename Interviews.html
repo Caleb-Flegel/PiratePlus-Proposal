@@ -1,8 +1,8 @@
 <html>
 <head>
     <title>Reception Interviews - Pirate Plus</title>
-    <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/Interviews.css"><!--Importing the styling-->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/Interviews.css"><!--Importing the styling-->
 </head>
 <body>
     <div class = "topBar">
@@ -30,18 +30,31 @@
     </div>
 
     <h1 class="pageTitle">Interviews</h1>
-    <div class="responses">
-        <div class="section">
+
+    <div id="responses">
+        <div class="section" id="responseIdeas">
+            <h2>App Suggestions</h2>
+            <p>Two major suggestions emerged from our conversations with others about this idea. First, a couple people, such as Brielle and Alisa,
+                suggested we add daily notifications for the mental health check in. They feel that this may motivate/remind them to complete the
+                checkin more often. We expect we can impliment this using an Azure service, specifically Azure notification hub. The other major
+                suggestion is to allow for you to take pictures of yourself when doing the daily checkin. You would be able to see past photos taken
+                and the mood you were in when it was taken. Also, when on the home page, the app will show users pictures they have previously taken. 
+                We can implement this by using a database with pictures, moods, and dates for each person. On the home page, a random index/option
+                will be selected.
+            </p>
+        </div>
+        
+        <div class="section" id="response">
             <h2>Kyle Marquez</h2>
             <p>First, we decided to share our app idea with Kyle Marquez, a current sophomore at Whitworth University. Kyle wanted us to
                 know about the Honor Follow Serve app that Whitworth has released, and he mentioned that few people currently use the app to
                 upload event information. He warned us about the low engagement we may encounter for the events section of the app. Instead
-                of an evens section, Kyle suggested to make the fourth section something fun, such as a daily Whitowrth random fact
+                of an evens section, Kyle suggested to make the fourth section something fun, such as a daily Whitworth random fact
                 or a funny joke. He also suggests to use the mental health check-in as an adrenaline booster for people to complete their
                 section individually.</p>
         </div>
-
-        <div class="section">
+    
+        <div class="section" id="response">
             <h2>Brielle Schmekel</h2>
             <p>Next, we interviewed Brielle Schmekel, a first-year student at Whitworth University. Even though Brielle lives in Washington,
                 she told us she would use the rideshare app because it is difficult for her to find rides back to Wenatchee. She advised us to monitor
@@ -50,8 +63,8 @@
                 to send out a daily notification at a random time for people to log on and allow people to post pictures on Pirate Plus, giving them
                 the opportunity to reflect on their lives.</p>
         </div>
-
-        <div class="section">
+    
+        <div class="section" id="response">
             <h2>Auli'i Peahi</h2>
             <p>In addition, we shared the concept of Pirate Plus with Auli'i Peahi, another first-year student at Whitworth University. Auli'i
                 pictures herself using the rideshare section the most because she does not live in Washington and often struggles to find rides to and
@@ -62,8 +75,8 @@
                 emotions. Finally, she likes the events section of the app because it is challenging for her to keep track of the events happening around
                 campus, and the events online could help her to access the events easily.</p>
         </div>
-
-        <div class="section">
+    
+        <div class="section" id="response">
             <h2>Alisa Bibaj</h2>
             <p>We also interviewed Alisa, a first-year student at Whitworth University. Alisa lives on the other side of Washington, and she shares
                 the common struggle of finding rides back home; however, she suggested that we should pay drivers to take people around and match drivers to
@@ -75,7 +88,7 @@
                 know where to eat with her family when they come to visit her.</p>
         </div>
         
-        <div class="section">
+        <div class="section" id="response">
             <h2>Ellie Huser</h2>
             <p>Finally, we asked Ellie, a first-year student at Whitworth University, about her thoughts on Pirate Plus. Ellie appreciates the rideshare aspect
                 because she lives out of state and needs to find ways to get to the airport. She also likes the rideshare part because it will be cheaper and
