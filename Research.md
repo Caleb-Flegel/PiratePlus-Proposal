@@ -1,20 +1,92 @@
-This document will contain info on other similar products and what we can take away from them
+This document will contain information about other similar products and what we can take away from them
 
 Mental Health apps:
 - DailyBean
+    - tailors the app to each user by allowing them to select topics of what they want to keep track of
+    - asks if the user wants to allow push notifications
+    - asks what time the notificaations should be sent
+    - requires a subscription to use the app
+    - has a calendar with mood emojis for each day of the month
+    - allows teh user to creawte their own icons if they do not like the ones the app automatically has
+    - has a daily section (every icon from one day); also allows people to inert journal entries and pictuers
+    - generates mood statistics
+    - has a monthly tab and an annual tab (that tells the user how many times tehy did soemthing for the year)
+    - allows users to backup and restore their data
 - Daylio Journal: Daily Diary
+    - has a "customize moods" feature so users can tailor the icons to their preferred theme
+    - has a section where users pick things they want to track
+    - has a notification section where users can customize notificatons when they create their accounts
+    - has a "create goals" section where users can choose generated goals
+    - they do not have a section where people can customize and write their own goals
+    - has a premium option, but the premium option is nto required in order to use the app
+    - allows  users to choose icons so they do not have to write if they do not want to
+    - has a "Quick Note" section for users to journal anything about the day
+    - allows users to add photos of their day in
+    - has a feed (like Instagram) that shows users how their days have been
+    - has a quote at the top as a medium sized wiget that covers the top section
+    - allows users to make multiple mood entries a day and it all goes under the same day
+    - has a calendar feature that puts different mood icons in the calendar (depending what the user entered); if the user entered multiple mood entries, the circle split in half to show the course of developing emotions
+    - creates a mood chart that shows teh changes in emotion over a month
+    - has a "Year in Pixels" section that color-coordinates moods
+    - fores users to lock their entries with a password
+    - shows users what influences their mood and how different activities can improve mood
 - Diary: Day One Journal
+    - forces users to pay for a premium account before making their first journal entry
+    - allows users to enter photos into their journal entry
+    - journal entries are password/fingerprint/face ID protected to prevent unwanted access
+    - have a trashed section so users can retrieve journal entries if they accidentally deleted it
+    - has an "on this day" feature that allows users to look at their past journal entries on the same day of another year (makes tracking growth helpful)
+    - has a calendar feature that summarizes journal entries on the calendar (like DailyBean)
+- CBT Therapy
+    - has the emoji list of moods to choose from
+    - tailors the app to each user by asking what they are wanting from the app
+    - has a subscription plan, cannot access the features without a subscription
+    - incorporates a music component into the app for meditation
 
 RideShare apps:
-- Uber
-- Lyft
+- Uber/Uber - Driver
+    - users can choose what kind of car picks you up
+    - lists the price of rides once departure and destination locations are established
+    - allows users to enable "Follow My Ride," a feature that allows family and friends to track the Uber driver to ensure the rider arrives safely
+    - makes drivers go through a training process to ensure no filthy cars, navigate airports, manage back-to-back driving requests, and general expectations for both parties
+    - rides are expensive, especially to the airport (from Whitworth to Spokane International Airport is $40)
+    - drivers are background checked, but sometimes there are bad people driving
+    - 
+- Lyft/Lyft Driver
+    - has separate apps for drivers and riders
+    - offers incentives to drivers so they can earn more money
+    - has a report an emergency feature and get emergency help feature in case the rider is not safe
+    - shows people their routes and what time drivers are picking riders up
+    - decreases the prices when riders wait longer
+    - payment and tipping is accessible through the same app (no different payment platform is needed)
+    - gives riders the option to rate their drivers
 
 Food recommendation apps:
-- Everyday
+- Everyday (Whitworth dining app)
+    - has the dining hall menu
+    - has a feature to order food from the cafes
+    - warns people of potential allergy foods with icons under the meal description
 - Yelp
+    - has recommendations from real people
+    - has a Google Map feaature where users can see popular places on the app
+    - has recommendations for all businesses, not just food
 - UberEats
+    - allows users to have groceries, meals, and other items they need
+    - have a member discount so users can get $0 delivery
+    - delivery fees are expensive
 
-Event apps:
+Event apps/platforms:
 - @visitspokane on Instagram
+    - posts about events in Spokane
+    - makes Instagram reels (videos) showing places to go and sites to see in Spokane
+    - shares restaurants, hiking spots, parks, tourist destinations, leisure activities, and other places people would want to know about
 - Honor Follow Serve (HFS)
+    - lists events that are happening in Whitworth
+    - allows users to star events as "Interested" so it bookmarks different events
+    - has a daily/weekly and monthly calendar option
+    - allows people to rideshare through the app
+    - has a "looking for roommates" option so people can post if they are looking for a roommate
+    - lists all clubs on campus and allows users to "join" clubs
+    - allows users to chat amongst each other, specifically to other Whitworth students
 - Handshake
+    - allows users to register for workshops, mandatory trainings, and find job opportunities

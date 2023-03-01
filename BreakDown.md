@@ -9,6 +9,7 @@ This document will be used to break down the functionality of the application.
         - There is probably gonna be a database where daily check-ins are stored, and info from random days could be pulled from this
     - Will likely also have a randomly chosen inspirational quote
       - This can be selected from either an internal (created by us) or an external database (list made by someone else and imported by us)
+      - Can also be used if this is the user's first time with the app and they do not have any pictuers
 
 ## Ridesharing
     - Allows people to post rides they are willing to give
