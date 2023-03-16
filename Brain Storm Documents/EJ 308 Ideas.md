@@ -5,11 +5,11 @@ EJ 308/214 Room Suggestions
  - Art right above the door
 
 # INSPIRING QUOTES
-- Inspirational quotes can help students who are in Eric Johnston often to find the motivation to finish their projects, especially when they are encountering challenges with coding.
+- Inspirational quotes can help students who are in Eric Johnston often to find the motivation to finish their projects, especially when they are encountering challenges with coding. Quotes motivate students to maintain their resilience and finish what they have started.
 
 
 # More outlets 
- - So people can charge their devices. If students are studying in 
+ - More outlets can help people can charge their devices, specifically phones and laptops, if they are working and have mulitple windows open. If students are studying in these rooms with abundant outlets, they could also charge their phones, Bluetooth headphones, or other devices so they can multitask.
 
 # New blinds
 - The blinds on the windows look depressing, so maybe the school could change the blinds in the rooms. We want newer blinds to be implemented so people have ease during lockdowns. (blind sliders)
@@ -28,14 +28,14 @@ EJ 308/214 Room Suggestions
 - plants add life into the room and creates a positive environment
 
 # squishmallows (beanbags or big plushies)
- - in the room and big pillows (especially during finals week when people are constantly studying in the room for hours)
- - squishmallows are 
+ - Squishmallows are cute and soft, which can add more life in the room and comfort students. Big pillows (especially during finals week when people are constantly studying in the room for hours)
+ - Squishmallows are cute and soft,
 
 # better chairs (because of back support)
 - when people are sitting at chairs that often have no back support for long periods of time, 
 
 # whiteboards like ROB 210
-- sliding whiteboards could give students more room to design code and allows them to save and reference their work without erasing anything. 
+- Sliding whiteboards could give students more room to design code and allows them to save and reference their work without erasing anything. It can also help other peers when they are checking work to catch errors in code.
 
 # STRESS RELIEVING TOYS (figet toys)
-- squishies (stress balls) can be beneficial for people who need to let their anger out
+- Squishies (stress balls) can be beneficial for people who need to let their anger out. When people want to destress without screaming or punching something, they could squeeze squishies as an outlet for anger.
